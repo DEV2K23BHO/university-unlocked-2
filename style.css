@@ -1,0 +1,114 @@
+html{
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+body {
+  height:100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:gold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container {
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:greenyellow;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: aqua;
+    height: 100%;
+  }
+  .logo{
+    max-width: 100px; /* Adjust the size as needed */
+    margin:0 auto;
+    display:block;
+  
+    
+  }
+  .title{
+    background-color: burlywood;
+    color: black;
+    size: 1000px
+    flex-grow:1;
+    height: 100%;
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: orchid;
+    height: 100%;
+    flex-grow: 1;
+  }
+  
+  .semester-section {
+    background-color: orange;
+    color:darkcyan;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    transition: background-color 0.3s ease;
+  }
+  h3{
+    color: blueviolet;
+    background-color: aquamarine;
+    font-size: larger;
+    font-weight: 100;
+  }
+  p{
+    color: deeppink;
+    background-color: chartreuse;
+    font-size: medium;
+  }
+  
+  .subject-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: crimson;
+    height: 100%;
+  }
+  
+  .subject-list li {
+    margin-bottom: 10px;
+    height: 100%;
+  }
+  
+  .subject-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .subject-list a:hover {
+    color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color:darkviolet;
+    border-radius: 10px;
+    color: gold
+    
+  }
+  @media screen and (max-width:600px){
+    font-size: 15px;
+  }
+  html{
+    background-attachment: scroll;
+  }
