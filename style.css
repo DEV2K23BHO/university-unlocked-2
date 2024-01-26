@@ -112,3 +112,13 @@ body {
   html{
     background-attachment: scroll;
   }
+  .notes{
+    background-color: aliceblue;
+    text-align: center;
+  }
+  .notes p{
+    background-color: deepskyblue;
+    color: yellow;
+    text-align: center;
+  }
+  
