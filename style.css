@@ -2,6 +2,7 @@ html{
   height:100%;
   width:100%;
   background-size: cover;
+  position: fixed;
 }
 body {
   height:100%;
@@ -106,8 +107,9 @@ body {
     color: gold
     
   }
-  @media screen and (max-width:600px){
+  @media only screen and (max-width:600px){
     font-size: 15px;
+    width: 100%;
   }
   html{
     background-attachment: scroll;
