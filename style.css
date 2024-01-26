@@ -2,7 +2,7 @@ html{
   height:100%;
   width:100%;
   background-size: cover;
-  position: fixed;
+  
 }
 body {
   height:100%;
@@ -11,6 +11,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color:gold;
     transition: background-color 0.3s ease;
+    position: relative;
   }
   
   .container {
@@ -21,6 +22,7 @@ body {
     background-color:greenyellow;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
+    position:relative;
     flex-direction: column;
     border-radius: 10px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
