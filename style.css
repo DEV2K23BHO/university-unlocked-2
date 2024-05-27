@@ -47,6 +47,7 @@ body {
     size: 1000px
     flex-grow:1;
     height: 100%;
+    margin: 10px;
   }
   
   .content {
@@ -97,7 +98,7 @@ body {
   }
   
   .subject-list a:hover {
-    color: #0056b3;
+    color:white;
   }
   
   footer {
@@ -135,4 +136,11 @@ body {
     background-color: aquamarine;
     text-align: center;
   }
-  
+  .sub-button{
+    background-color: blue;
+    color: white;
+  }
+  .sem-6th{
+    text-align: center;
+    background-color:darksalmon;
+  }
